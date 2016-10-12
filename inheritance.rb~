@@ -59,8 +59,8 @@ class Number < City
    # end
 
    def streetAddress
-   	@sadd="#455, SS Nagar, Bannimantap"
-       puts "streetAddress -> 96, B layout"
+   	@sadd="#96, Railway Layout, Vijaynagar"
+       puts "streetAddress -> 96, Railway Layout, Vijaynagar"
  
          end
 

@@ -1,10 +1,13 @@
 def divide(number, divisor)
-  begin
+	  begin
     answer = number / divisor
-  # Handle the exception based on the parameter
-    puts e.message
-  end
+rescue
+	puts "exception raised"
 end
+  # Handle the exception based on the parameter
+   
+  end
+
 
 puts divide(16, 4)
 puts divide(4, 0)

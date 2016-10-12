@@ -41,10 +41,10 @@ end
 
 	end
 	
-	c1=Company1.new("Infosys","banglore")
+	c1=Company1.new("accenture","banglore")
 	c1.name
 	c1.location
-	c1=Company2.new("Qwinix","Mysore")
+	c1=Company2.new("infosys","banglore")
 	c1.name
 	c1.location
 	c3=Company3.new("Microsoft","America")

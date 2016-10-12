@@ -6,17 +6,21 @@
 class Company
 
   def initialize(list)
+  list = list.chomp
+  @company = {
+  "qwinix" => "value1",
+  "infosys" => "value2",
+  "pivotal" => "value3",
+  "IBM" => "value4",
+}
+puts @company[list]
+
   end
 
   
 
 end
 
-@Company = {
-  qwinix: value,
-  infosys: => value,
-  "pivotal": value
-}
-
-company_name = 'Input From the user'
+puts 'Input From the user'
+company_name = gets
 location = Company.new(company_name)
